@@ -1,87 +1,71 @@
-# python-oop-concepts-and-projects
-My learning repository for Python Object-Oriented Programming. Includes concept-wise programs, examples, and projects
+# Python OOP Concepts and Projects
 
-# 🐍 Python Object-Oriented Programming (OOP) – Concepts and Examples
+This repository covers core Object-Oriented Programming (OOP) concepts in Python with hands-on examples and mini-projects.
 
-This repository contains Python programs that demonstrate **core Object-Oriented Programming (OOP) concepts** through simple, clear examples.  
-It includes concept-wise programs and a small project to help understand and practice OOP effectively.
+Topics included:
+- Classes and Objects
+- Inheritance, Polymorphism, Encapsulation
+- Abstraction
+- Real-world Python use cases
 
-## 🗂️ Folder Structure
-OOPS/
+Purpose: Strengthening Python fundamentals through practical implementation and internship preparation.
+
+## 📁 Project Structure
+
+```text
+python-oop-concepts-and-projects/
 ├── Abstraction/
+│   ├── syntax.py
+│   └── normal_methods.py
+│
 ├── Class_Object/
+│   ├── class_object.py
+│   └── class_data_function.py
+│
 ├── Constructor/
-│ ├── new/
-│ └── destructor/
+│   ├── __new__/
+│   │   ├── __new__.py
+│   │   ├── new_real_constructor.py
+│   │   ├── singleton_class.py
+│   │   ├── blocking_objects.py
+│   │   └── modify_immutable.py
+│   ├── default_constructor.py
+│   ├── parameterized_constructor.py
+│   ├── args_constructor.py
+│   ├── kwargs_constructor.py
+│   ├── constructor_overloading.py
+│   └── destructor/
+│       └── destructor.py
+│
 ├── Encapsulation/
-│ └── Property/
+│   ├── Property/
+│   │   ├── readonly.py
+│   │   ├── writeonly.py
+│   │   ├── deleter.py
+│   │   ├── dynamicproperty.py
+│   │   └── pythonic_property.py
+│   ├── getters_setters.py
+│   ├── public.py
+│   ├── protected.py
+│   └── private.py
+│
 ├── Inheritance/
-│ └── super/
+│   ├── SingleInheritance.py
+│   ├── MultipleInheritance.py
+│   ├── MultilevelInheritance.py
+│   └── HierarchicalInheritance.py
+│
 ├── Polymorphism/
-└── Project/
-
-## ✅ Topics Covered
-### 🧱 Class & Object
-- Creating classes and objects
-- Class variables vs instance variables
-- Class functions and instance functions
-
-### 🛠 Constructors & Destructors
-- Default constructor
-- Parameterized constructor
-- Constructor overloading (Pythonic way)
-- `*args` and `**kwargs` constructors
-- Destructor (`__del__`)
-- `__new__` real constructor concepts
-- Singleton example using `__new__`
-
-### 🔐 Encapsulation
-- Public members
-- Protected members
-- Private members
-- Getters and setters
-- `@property` decorator
-- Read-only, write-only, dynamic properties
-- Property with docstring
-- Property deleter
-
-### 🧬 Inheritance
-- Single inheritance
-- Multilevel inheritance
-- Multiple inheritance
-- Hierarchical inheritance
-- Hybrid concepts
-- `super()` usage
-- Constructor chaining
-- Method Resolution Order (MRO)
-
-### 🎭 Polymorphism
-- Method overriding
-- Duck typing
-- Function polymorphism
-- Operator overloading
-
-### 🧩 Abstraction
-- Abstract classes
-- Abstract methods
-- Normal vs abstract methods comparison
-
-
-## 🧪 Mini Project Included
-
-### 🎓 Student Management System
-A simple console-based project demonstrating:
-- Class design
-- Object lists
-- Add / search / update / delete students
-- Basic CRUD operations using OOP concepts
-
-
-## 🚀 How to Run
-
-Clone the repository:
-git clone https://github.com/Daisyjosh/python-oop-concepts-and-projects
-
-Navigate into the folder and run any Python file:
-python filename.py
-
+│   ├── method_overriding.py
+│   ├── operator_overloading.py
+│   ├── duck_typing.py
+│   └── functions.py
+│
+├── Projects/
+│   ├── Chat_System.py
+│   └── Student_Management_System.py
+│
+├── OOP_NOTES/
+│   └── Python_OOP.pdf
+│
+└── README.md
